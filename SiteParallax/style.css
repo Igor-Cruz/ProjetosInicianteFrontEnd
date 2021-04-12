@@ -1,0 +1,14 @@
+.imagem1{
+    background: url(../SiteParallax/IMAGEM/FRONT.jpg);
+    height: 100%;
+}
+
+.imagem2 {
+    background: url(../SiteParallax/IMAGEM/BACK.jpg);
+}
+
+.imagem3{
+    background: url(../SiteParallax/IMAGEM/FULL.jpg);
+    width: 400px;
+    height: 400px;
+}
