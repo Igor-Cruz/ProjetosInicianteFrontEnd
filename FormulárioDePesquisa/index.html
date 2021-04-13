@@ -18,28 +18,28 @@
 
                 <div>
                     <label>Nome:
-                        <input type="text" placeholder="Nome">
+                        <input type="text" placeholder="Nome" autocomplete="on">
                     </label>
                 </div>
 
                 <br>
                 <div>
                     <label>E-mail:
-                        <input type="text" placeholder="E-mail">
+                        <input type="text" placeholder="E-mail" autocomplete="on">
                     </label>
                 </div>
 
                 <br>
                 <div>
                     <label>Idade:
-                        <input type="text" placeholder="Idade">
+                        <input type="number" placeholder="Idade" autocomplete="on">
                     </label>
                 </div>
 
                 <br>
                 <div>
                     <label for="Situação">Como você define sua situação atual ?</label>
-                        <select name="Situação" id="Situação" required>
+                        <select name="Situação" id="Situação" >
                             <option value="Iniciante">Iniciante</option>
                             <option value="Estágiario">Estágiario</option>
                             <option value="Desenvolvedor Jr.">Desenvolvedor Jr</option>
@@ -79,7 +79,7 @@
 
                 <div>
                     <p>Qual linguagem de programção você está estudando ?</p>
-                    <textarea name="linguagem" id="linguagem" cols="50" rows="5" placeholder="Linguagem de programção"></textarea>
+                    <textarea name="linguagem" id="linguagem" cols="50" rows="5" placeholder="Linguagem de programção" required= "required"></textarea>
                 </div>
 
                 <div>
@@ -88,8 +88,8 @@
                 </div>
 
                 <div>
-                    <!-- <button>Enviar</button> -->
                     <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
                 </div>
                 
 
