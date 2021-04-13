@@ -3,8 +3,13 @@
   } */
   
   #container {
-      background-color: aqua;
+      background-color: rgba(13, 83, 83, 0.5);
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      
+      /* display: flex; */
+      /* align-items: center;
+      justify-content: center; */
+      /* width: 80%; */
+      width: 35%;
+      height: auto;
   }
 
