@@ -16,3 +16,13 @@
       height: auto;
   }
 
+  textarea {
+      border-radius: 3px;
+      border-color: rgb(24, 151, 24);
+  }
+
+  .but{
+    border-radius: 5px;
+    border-color: rgb(24, 151, 24); 
+    border-style: inset;     
+  }
