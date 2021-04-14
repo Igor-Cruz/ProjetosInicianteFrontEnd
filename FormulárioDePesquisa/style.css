@@ -3,10 +3,11 @@
   } */
   
  body{
-     background-color: rgb(97, 156, 148);
+
+    background-color: #424242;
  }
   #container {
-      background-color: rgba(13, 83, 83, 0.5);
+      background-color: #0174DF;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       
       align-items: center;
@@ -22,7 +23,7 @@
   }
 
   .but{
-    border-radius: 5px;
+    border-radius: 3px;
     border-color: rgb(24, 151, 24); 
     border-style: inset;     
   }
