@@ -9,11 +9,13 @@
   #container {
       background-color: #cecece;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      
+      position: absolute;
+      left: 25%;
+      text-align: center;
       align-items: center;
       justify-content: center;
       
-      width: 35%;
+      width: 50%;
       height: auto;
   }
 
@@ -23,7 +25,13 @@
   }
 
   .but{
-    border-radius: 3px;
+    /* border-radius: 3px;
     border-color: rgb(24, 151, 24); 
-    border-style: inset;     
+    border-style: solid inset;      */
+    
   }
+
+  h1{
+    align-items: center;
+  }
+
