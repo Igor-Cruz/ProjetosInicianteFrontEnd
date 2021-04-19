@@ -16,7 +16,8 @@
       justify-content: center;
       
       width: 50%;
-      height: auto;
+      /* height: auto; */
+      margin: 0 auto;
   }
 
   textarea {
