@@ -3,19 +3,25 @@ body{
 }
 
 .imag {
+    width: auto;
     height: 500px;
     color: blue;
     background-color: burlywood;
+    margin: -8px;
+}
+
+section {
+    margin: -8px;
 }
 
 .fogo{
     background-image: url(IMAGEM/fogo.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;  /* Imagem toma toda a div */
 }
 
 .pfogo{
-    width: 200px;
+    width: 50%;
     /* height: 30px; */
     margin: 0 auto;
     text-align: center;
