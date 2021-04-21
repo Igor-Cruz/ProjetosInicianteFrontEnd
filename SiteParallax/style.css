@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color:violet;
 }
 
 .imag {
@@ -10,20 +10,48 @@ body{
     margin: -8px;
 }
 
-section {
-    margin: -8px;
-}
-
 .fogo{
     background-image: url(IMAGEM/fogo.png);
     background-repeat: no-repeat;
     background-size: cover;  /* Imagem toma toda a div */
+    /* margin-bottom: -20px; */
 }
 
-.pfogo{
+.divfogo{
     width: 50%;
     /* height: 30px; */
     margin: 0 auto;
     text-align: center;
     background-color: white;
+    
+   
 }
+
+section{
+    background-color: violet;
+    display: block;
+}
+
+.sectionfogo{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+
+
+/* section {
+    margin: -8px;
+    display: block;
+    background-color: violet;
+    color: white;
+}
+
+sectionfogo{
+    text-align: center;
+    padding: 50px 80px;
+    
+}
+
+p{
+    margin-bottom: 0px;
+} */
