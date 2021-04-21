@@ -1,15 +1,23 @@
-.imagem1{
-    background-image: url(../SiteParallax/IMAGEM/FRONT.jpg);
-    width: 400px;
-
+body{
+    background-color: white;
 }
 
-.imagem2 {
-    background: url(../SiteParallax/IMAGEM/BACK.jpg);
+.imag {
+    height: 500px;
+    color: blue;
+    background-color: burlywood;
 }
 
-.imagem3{
-    background: url(../SiteParallax/IMAGEM/FULL.jpg);
-    width: 100vw;
-    height: 100vh;
+.fogo{
+    background-image: url(IMAGEM/fogo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pfogo{
+    width: 200px;
+    /* height: 30px; */
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
 }
