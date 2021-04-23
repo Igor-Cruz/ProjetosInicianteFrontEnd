@@ -11,13 +11,15 @@
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       position: absolute;
       left: 25%;
-      text-align: center;
+      /* text-align: center; */
       align-items: center;
       justify-content: center;
-      
-      width: 50%;
+/*       
+      width: 50%; */
       /* height: auto; */
       margin: 0 auto;
+      text-align: center;
+      width: 100%;
   }
 
   textarea {
