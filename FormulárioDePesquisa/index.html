@@ -1,96 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Formulário de Pesquisa</title>
-</head>
-    <div id="container" >
-        <!--Início da página-->
-        <header>
-            <h1>Desenvolvimento Web</h1>
-        </header>
-        <!-- container do formulário -->
-        <form action="">
-            <div id="container2">
+  </head>
 
-                <div>
-                    <label>Nome: <br>
-                        <input type="text" placeholder="Nome" autocomplete="on" class="but">
-                    </label>
-                </div>
+  <body>
+    <form action="gravarDados.html" id="formCadastro">
+      <div>
+        <h1>Desenvolvimento Web</h1>
+        <label
+          >Nome: <br />
+          <input name="nome" type="text" placeholder="Nome" autocomplete="on" />
+          <span class="erro"></span>
+        </label>
+      </div>
+      <div>
+        <label
+          >E-mail: <br />
+          <input
+            name="email"
+            type="text"
+            placeholder="E-mail"
+            autocomplete="on"
+            class="but"
+          />
+          <span class="erro"></span>
+        </label>
+      </div>
+      <div>
+        <label
+          >Idade: <br />
+          <input
+            name="idade"
+            type="number"
+            placeholder="Idade"
+            autocomplete="on"
+            class="but"
+          />
+          <span class="erro"></span>
+        </label>
+      </div>
+      <div>
+        <label for="Situação">Como você define sua situação atual ?</label>
+        <br />
+        <select name="Situação" id="Situação" class="but">
+          <option value="Desenvolvedor Jr.">Desenvolvedor Jr</option>
+          <option value="Desenvolvedor Pl.">Desenvolvedor Pl</option>
+          <option value="Desenvolvedor Sr.">Desenvolvedor Sr</option>
+        </select>
+      </div>
+      <div>
+        <label for="Situação">Qual melhor horário de estudo ?</label> <br />
+        <select name="Estudos" id="Estudos" class="but">
+          <option value="Manhã">Manhã</option>
+          <option value="Tarde">Tarde</option>
+          <option value="Noite">Noite</option>
+        </select>
+      </div>
+      <div>
+        <p>Qual área você pretende atuar ?</p>
+        <input type="checkbox" name="Front" id="Front-End" />
+        <label for="Front-End">Front-End</label><br />
+        <input type="checkbox" name="Back" id="Back-End" />
+        <label for="Back-End">Back-End</label><br />
+        <input type="checkbox" name="FULL" id="FULL-STACK" />
+        <label for="FULL-STACK">Full-Stack</label>
+      </div>
 
-                <br>
-                <div>
-                    <label>E-mail: <br>
-                        <input type="text" placeholder="E-mail" autocomplete="on" class="but">
-                    </label>
-                </div>
+      <div>
+        <p>Qual linguagem de programção você está estudando ?</p>
+        <textarea
+          name="linguagem"
+          id="linguagem"
+          cols="50"
+          rows="5"
+          placeholder="Linguagem de programção"
+          required="required"
+        >
+        </textarea>
+      </div>
 
-                <br>
-                <div>
-                    <label>Idade: <br>
-                        <input type="number" placeholder="Idade" autocomplete="on" class="but">
-                    </label>
-                </div>
-
-                <br>
-                <div>
-                    <label for="Situação">Como você define sua situação atual ?</label> <br>
-                        <select name="Situação" id="Situação" class="but" >
-                            <option value="Iniciante">Iniciante</option>
-                            <option value="Estágiario">Estágiario</option>
-                            <option value="Desenvolvedor Jr.">Desenvolvedor Jr</option>
-                            <option value="Desenvolvedor Pl.">Desenvolvedor Pl</option>
-                            <option value="Desenvolvedor Sr.">Desenvolvedor Sr</option>
-                        </select>
-                </div>
-
-                <div>
-
-                    <label for="Situação">Qual melhor horário de estudo ?</label> <br>
-                        <select name="Estudos" id="Estudos" class="but" >
-                            <option value="Manhã">Manhã</option>
-                            <option value="Tarde">Tarde</option>
-                            <option value="Noite">Noite</option>
-                            <option value="Madrugada">Madrugada</option>
-                        </select>
-
-                </div>
-
-                <div>
-                    <p>Qual área você pretende atuar ?</p>
-                        <input type="checkbox" name="Front" id="Front-End">
-                        <label for="Front-End">Front-End</label><br>
-                        <input type="checkbox" name="Back" id="Back-End">
-                        <label for="Back-End">Back-End</label><br>
-                        <input type="checkbox" name="FULL" id="FULL-STACK">
-                        <label for="FULL-STACK">Full-Stack</label>
-                </div>
-
-                <div>
-                    <p>Qual linguagem de programção você está estudando ?</p>
-                    <textarea name="linguagem" id="linguagem" cols="50" rows="5" placeholder="Linguagem de programção" required= "required">
-
-                    </textarea>
-                </div>
-                        <br>
-                <div>
-                    <input type="submit" value="Enviar" class="but">
-                    <input type="reset" value="Limpar" class="but">
-                </div> <br>
-            </div>
-        </form>
-        <div class="footer">
-            <footer>
-                Developed by Igor Cruz
-            </footer>        
-        </div>
-    </div>
-    
-<body>
-    
-</body>
+      <div>
+        <input type="submit" value="Enviar" class="but" />
+        <input type="reset" value="Limpar" class="but" />
+      </div>
+    </form>
+    <script src="script.js"></script>
+  </body>
 </html>

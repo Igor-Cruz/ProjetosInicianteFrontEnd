@@ -1,47 +1,42 @@
-/* input {
-    display: block;
-  } */
-  
- body{
+* {
+  margin: 0;
+  padding: 0;
+}
 
-    background-color: #424242;
- }
-  #container {
-      background-color: #cecece;
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      position: absolute;
-      left: 25%;
-      /* text-align: center; */
-      align-items: center;
-      justify-content: center;
-/*       
-      width: 50%; */
-      /* height: auto; */
-      margin: 0 auto;
-      text-align: center;
-      width: 100%;
-  }
+body {
+  background-color: #424242;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 
-  textarea {
-      border-radius: 3px;
-      border-color: rgb(24, 151, 24);
-  }
+form {
+  background-color: burlywood;
+  width: 40%;
+  height: 90%;
+  text-align: center;
+}
 
-  .but{
-    /* border-radius: 3px;
-    border-color: rgb(24, 151, 24); 
-    border-style: solid inset;      */
-    
-  }
+h1 {
+  margin-bottom: 20px;
+}
+div {
+  margin: 10px;
+}
 
-  h1{
-    align-items: center;
-  }
+textarea,
+input {
+  border: none;
+}
 
-  .footer{
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-  }
+.inputError {
+  border: 1px solid red;
+}
 
+.erro {
+  color: red;
+  font-size: 10px;
+}
